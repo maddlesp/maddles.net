@@ -1,20 +1,11 @@
-'use client'
-
-function themeSwap() {
-    const root = document.querySelector(":root");
-    const theme = document.getElementById("theme");
-    if (!root || !theme) return;
-    if (root?.getAttribute("theme") == "dark") {
-        root.setAttribute("theme", "light");
-        if (theme) theme.childNodes[0].nodeValue = "Bright lights hurt your eyes?";
-    } else {
-        root.setAttribute("theme", "dark");
-        if (theme) theme.childNodes[0].nodeValue = "Do you like bright lights?";
-    }
-}
+import Section from "../components/section";
+import Gallery from "../components/sections/gallery";
+import Projects from "../components/sections/projects";
+import Toggle from "../components/toggle";
 
 export default function En() {
     return (
+        <>
         <div id="blurb">
             <div id="header">
                 <h1>
@@ -26,9 +17,7 @@ export default function En() {
             </div>
             <div id="theme">
                 Bright lights hurt your eyes?
-                <label className='switch-container' onClick={themeSwap}>
-                    <input type="checkbox"/>
-                </label>
+                <Toggle/>
             </div>
             <p>
                 All good? Sick.<br/>
@@ -38,5 +27,14 @@ export default function En() {
             <p id="contact">Contact: <a href="mailto:hello@maddles.net">hello@maddles.net</a></p>
             <p>More to come soon!</p>
         </div>
+        {/* <div id='sections'>
+                <Section title="Images">
+                    <Gallery/>
+                </Section>
+                <Section title="Projects">
+                    <Projects/>
+                </Section>
+        </div> */}
+        </>
     );
 }

@@ -1,5 +1,7 @@
 'use client'
 
+import Toggle from "../components/toggle";
+
 function themeSwap() {
     const root = document.querySelector(":root");
     const theme = document.getElementById("theme");
@@ -26,9 +28,7 @@ export default function En() {
             </div>
             <div id="theme">
                 suno suli li pakala ala pakala e oko sina?
-                <label className='switch-container' onClick={themeSwap}>
-                    <input type="checkbox"/>
-                </label>
+                <Toggle/>
             </div>
             <p>
                 pona ala pona ale? pona a.<br/>
