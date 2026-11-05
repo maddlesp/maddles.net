@@ -1,0 +1,48 @@
+{
+    "header": "HELLO!",
+    "langSuggest": {
+        "label": "This site is also available in:",
+        "langs": [
+            {
+                "href": "/en",
+                "text": "English",
+                "fontOverride": "sitelen-lasin"
+            },
+            {
+                "href": "/tp",
+                "text": "toki pona",
+                "fontOverride": "sitelen-lasin"
+            },
+            {
+                "href": "/sp",
+                "text": "sitelen pona",
+                "fontOverride": "sitelen-pona"
+            }
+        ]
+    },
+    "theme": {
+        "toDark": "Bright lights hurt your eyes?",
+        "toLight": "Do you like bright lights?"
+    },
+    "about": {
+        "checkin": "All good? Sick.",
+        "greeting": "Hey there! o/",
+        "blurb": "I'm Maddy. Welcome to my website! I manage a few things including: images, music, and a few projects made public!"
+    },
+    "contact": {
+        "label": "Contact",
+        "email": "hello@maddles.net"
+    },
+    "more": "More to come soon!",
+    "sections": {
+        "gallery": {
+            "title": "Images"
+        },
+        "projects": {
+            "title": "Projects"
+        },
+        "playlist": {
+            "title": "Music"
+        }
+    }
+}

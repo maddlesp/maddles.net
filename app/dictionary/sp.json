@@ -1,0 +1,48 @@
+{
+    "header": "toki!",
+    "langSuggest": {
+        "label": "lipu ni kin lon e:",
+        "langs": [
+            {
+                "href": "/en",
+                "text": "English",
+                "fontOverride": "sitelen-lasin"
+            },
+            {
+                "href": "/tp",
+                "text": "toki pona",
+                "fontOverride": "sitelen-lasin"
+            },
+            {
+                "href": "/sp",
+                "text": "sitelen pona",
+                "fontOverride": "sitelen-pona"
+            }
+        ]
+    },
+    "theme": {
+        "toDark": "suno suli li pakala ala pakala e oko sina?",
+        "toLight": "sina pona ala pona e suno suli?"
+    },
+    "about": {
+        "checkin": "sina li pona ala pona ale? pona a.",
+        "greeting": "toki lon!  \\o\\/",
+        "blurb": "mi jan [meso awen telo awen lete insa nena]. lon pona tawa lipu mi. mi jo e ni mute. ni li sitelen li kalama li poki pali!"
+    },
+    "contact": {
+        "label": "nimi pi (ilo toki)",
+        "email": "hello@maddles.net"
+    },
+    "more": "mi kama pana e mute lon kama.",
+    "sections": {
+        "gallery": {
+            "title": "sitelen"
+        },
+        "projects": {
+            "title": "poki pali"
+        },
+        "playlist": {
+            "title": "kalama"
+        }
+    }
+}
