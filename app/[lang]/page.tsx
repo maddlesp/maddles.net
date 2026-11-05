@@ -1,6 +1,6 @@
-import Section from "../components/section";
-import Gallery from "../components/sections/gallery";
-import Projects from "../components/sections/projects/projects";
+// import Section from "../../section";
+// import Gallery from "../../sections/gallery";
+// import Projects from "../../sections/projects/projects";
 import Toggle from "../components/toggle";
 import { lang } from 'next/root-params';
 import { getDictionary } from "../dictionary/dictionaries";
